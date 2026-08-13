@@ -1,0 +1,15 @@
+## Interface: 120100
+## Title: MarkerMemory
+## Notes: Remembers raid marker sequences and plays them back as a memory aid
+## Author: Creedem@Blackrock
+## Version: 1.0.0
+## IconTexture: Interface\Icons\INV_Inscription_ScrollOfWisdom_01
+## AddonCompartmentFunc: MarkerMemory_OnAddonCompartmentClick
+## Category: Media
+## Category-deDE: Medien
+## X-Website: https://github.com/creedemlive-boop/MarkerMemory
+## X-License: MIT
+## X-Curse-Project-ID: 1651044
+
+MarkerMemory_Locales.lua
+MarkerMemory.lua
