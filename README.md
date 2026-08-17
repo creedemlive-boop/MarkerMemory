@@ -1,28 +1,47 @@
 # MarkerMemory
 
-## Description
+MarkerMemory is a lightweight World of Warcraft Retail addon that helps you remember raid marker sequences for mechanics, movement patterns, and boss assignments without relying on external notes.
 
-MarkerMemory is a lightweight World of Warcraft Retail addon designed to help players memorize raid and dungeon movement patterns using Blizzard's built-in raid marker icons.
+It is designed for encounters where a specific marker order matters, such as the boss mechanics in the Venomfall Deeps. The addon lets you build a sequence from the standard raid marker icons, replay it at a chosen speed, and keep the window visible only when needed.
 
-Instead of relying on notes, external tools, or weak visual memory, players can create a custom sequence of raid markers by clicking the familiar marker icons (Star, Circle, Diamond, Triangle, Moon, Square, Cross, and Skull). Once the sequence is recorded, MarkerMemory can replay it at a configurable speed, allowing players to practice movement patterns, boss mechanics, and positional assignments before or during encounters.
+## Features
 
-The addon does **not** place raid markers in the game world and does not automate gameplay. It simply provides a visual memory aid using the raid marker symbols that players already recognize from raids and Mythic+ content.
+- Create a custom sequence by clicking the marker icons
+- Replay the sequence with configurable speed
+- Reset automatically after playback finishes
+- Keep the window or hide it immediately based on zone context
+- Auto-open inside the instance
+- Choose which marker symbols are shown in the visible grid
 
-### Commands
+## Commands
 
-- `/mm` — Open or close the MarkerMemory window
+- `/mm` — Toggle the MarkerMemory window
+
+## Usage
+
+1. Open the addon window with `/mm` or the minimap button.
+2. Click the marker buttons to build your sequence.
+3. Use the speed dropdown to adjust playback timing.
+4. Press Start to replay the sequence.
+5. The addon resets to a clean state after the playback ends.
+
+## Custom symbol selection
+
+The marker selection area at the bottom of the window lets you enable or disable individual symbols. Only the selected symbols are displayed in the main grid, which keeps the interface focused and avoids clutter.
+
+## Auto-open behavior
+
+The addon automatically opens when you enter the Venomfall Deeps zone. This makes it especially useful for boss mechanics that rely on quick visual recall during the encounter.
 
 ## License
 
-This project is licensed under the MIT License.
-See LICENSE.md for full terms.
+This project is licensed under the MIT License. See the LICENSE file for full terms.
 
-## Blizzard Policy Note
+## Notes
 
-This project is intended to follow the Blizzard UI Add-On Development Policy.
+This addon does not place raid markers in the world or automate gameplay. It is a visual reminder tool for player memory and practice.
 
-## Bug Reports
+## Repository
 
-Any issues you find should be posted here: [Issues][issueTracker]
-
-[issueTracker]: https://github.com/creedemlive-boop/MarkerMemory/issues
+- GitHub: https://github.com/creedemlive-boop/MarkerMemory
+- CurseForge project metadata is included in the TOC file.

@@ -2,7 +2,7 @@
 ## Title: MarkerMemory
 ## Notes: Remembers raid marker sequences and plays them back as a memory aid
 ## Author: Creedem@Blackrock
-## Version: 1.0.0
+## Version: 1.1.0
 ## IconTexture: Interface\Icons\INV_Inscription_ScrollOfWisdom_01
 ## AddonCompartmentFunc: MarkerMemory_OnAddonCompartmentClick
 ## Category: Media
